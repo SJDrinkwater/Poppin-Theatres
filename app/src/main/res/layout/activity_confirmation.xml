@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".ConfirmationActivity"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <TextView
+            android:id="@+id/confirmation_title_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Congratulations!\n You're Off To The Theatre!"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/confirmation_performance_name_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Performance Name"
+            android:textAlignment="viewStart"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/confirmation_performance_date_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Performance Date"
+            android:textAlignment="textEnd" />
+
+
+        <TextView
+            android:id="@+id/confirmation_ticket_summary_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ticket Summary"
+            android:textAlignment="textEnd" />
+
+        <TextView
+            android:id="@+id/confirmation_total_cost_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Cost" />
+
+        <TextView
+            android:id="@+id/confirmation_notes_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Notes" />
+
+        <TextView
+            android:id="@+id/confirmation_code_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Confirmation Code"
+            android:paddingBottom="16dp"/>
+
+        <Button
+            android:id="@+id/return_to_performance_list_button"
+            android:layout_width="205dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="5dp"
+            android:text="Return to Performance List"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            app:backgroundTint="#FFFFFF" />
+
+
+    </LinearLayout>
+</ScrollView>

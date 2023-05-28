@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bubble_background"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/title_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Performance Title"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/date_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Performance Date"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:textColor="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/location_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Performance Location"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:textColor="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/seats_available_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seats available: 100"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:textColor="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/seat_price_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From £100"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:textColor="@android:color/darker_gray" />
+
+</LinearLayout>
+

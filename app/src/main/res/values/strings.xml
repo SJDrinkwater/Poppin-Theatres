@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Poppin Theatre\'s</string>
+
+    <string-array name="performance_filter_options">
+        <item>All</item>
+        <item>Plays By Shakespeare</item>
+        <item>Plays By Sophocles</item>
+    </string-array>
+
+</resources>
